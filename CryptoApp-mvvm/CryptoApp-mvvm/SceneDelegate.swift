@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  NewsAPI-MVVM
+//  CryptoApp-mvvm
 //
-//  Created by Harun Gunes on 21/06/2022.
+//  Created by Harun Gunes on 24/06/2022.
 //
 
 import UIKit
