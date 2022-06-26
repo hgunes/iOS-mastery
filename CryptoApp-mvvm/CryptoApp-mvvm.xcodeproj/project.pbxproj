@@ -16,6 +16,7 @@
 		BE76EB87286660D600938FCB /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE76EB86286660D600938FCB /* CryptoTableViewCell.swift */; };
 		BE76EB89286664B200938FCB /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE76EB88286664B200938FCB /* CryptoCurrency.swift */; };
 		BEB681B0286878AC00196536 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB681AF286878AC00196536 /* NetworkService.swift */; };
+		BEB681B228687FC200196536 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB681B128687FC200196536 /* CryptoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BE76EB86286660D600938FCB /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 		BE76EB88286664B200938FCB /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
 		BEB681AF286878AC00196536 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BEB681B128687FC200196536 /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				BE76EB8028665D9A00938FCB /* Info.plist */,
 				BE76EB88286664B200938FCB /* CryptoCurrency.swift */,
 				BEB681AF286878AC00196536 /* NetworkService.swift */,
+				BEB681B128687FC200196536 /* CryptoViewModel.swift */,
 			);
 			path = "CryptoApp-mvvm";
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				BE76EB87286660D600938FCB /* CryptoTableViewCell.swift in Sources */,
 				BE76EB7728665D9400938FCB /* ViewController.swift in Sources */,
 				BE76EB7328665D9400938FCB /* AppDelegate.swift in Sources */,
+				BEB681B228687FC200196536 /* CryptoViewModel.swift in Sources */,
 				BE76EB89286664B200938FCB /* CryptoCurrency.swift in Sources */,
 				BEB681B0286878AC00196536 /* NetworkService.swift in Sources */,
 				BE76EB7528665D9400938FCB /* SceneDelegate.swift in Sources */,
