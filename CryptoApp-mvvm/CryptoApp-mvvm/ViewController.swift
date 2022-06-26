@@ -16,6 +16,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     tableView.delegate = self
     tableView.dataSource = self
+    
+    NetworkService.shared.fetchCurrencies { result in
+      if let result = result {
+        print(result)
+      }
+    }
+    
   }
 
 
