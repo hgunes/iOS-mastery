@@ -64,17 +64,11 @@ class ViewController: UIViewController {
         
         view.addSubview(stackView1)
         
-//        stackView1.addArrangedSubview(view1)
-//        stackView1.addArrangedSubview(view2)
-//        stackView1.addArrangedSubview(view3)
-//        stackView1.addArrangedSubview(view4)
-//        stackView1.addArrangedSubview(view5)
-        
         NSLayoutConstraint.activate([
-            stackView1.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-            stackView1.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            stackView1.topAnchor.constraint(equalToSystemSpacingBelow: view.safeAreaLayoutGuide.topAnchor, multiplier: 4),
+            stackView1.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            stackView1.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             stackView1.heightAnchor.constraint(equalToConstant: 200),
-            stackView1.widthAnchor.constraint(equalToConstant: 200),
         ])
         
         
@@ -95,23 +89,16 @@ class ViewController: UIViewController {
         
         stackView2.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(stackView2)
-        
-//        stackView2.addArrangedSubview(view6)
-//        stackView2.addArrangedSubview(view7)
-//        stackView2.addArrangedSubview(view8)
-//        stackView2.addArrangedSubview(view9)
-//        stackView2.addArrangedSubview(view10)
-        
+
         stackView2.axis = .vertical
         stackView2.distribution = .equalSpacing
         stackView2.spacing = 8
         
-        
         NSLayoutConstraint.activate([
-            stackView2.topAnchor.constraint(equalToSystemSpacingBelow: view.safeAreaLayoutGuide.topAnchor, multiplier: 4),
-            stackView2.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            stackView2.topAnchor.constraint(equalToSystemSpacingBelow: stackView1.bottomAnchor, multiplier: 6),
+            stackView2.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            stackView2.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             stackView2.heightAnchor.constraint(equalToConstant: 200),
-            stackView2.widthAnchor.constraint(equalToConstant: 200),
         ])
     }
     
@@ -133,15 +120,15 @@ class ViewController: UIViewController {
         
         view.addSubview(stackView3)
         
-        stackView3.axis = .vertical
+        stackView3.axis = .horizontal
         stackView3.distribution = .equalSpacing
         stackView3.spacing = 8
         
         NSLayoutConstraint.activate([
-            view.bottomAnchor.constraint(equalToSystemSpacingBelow: stackView3.bottomAnchor, multiplier: 8),
-            stackView3.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            stackView3.topAnchor.constraint(equalToSystemSpacingBelow: stackView2.bottomAnchor, multiplier: 8),
+            stackView3.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            stackView3.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             stackView3.heightAnchor.constraint(equalToConstant: 200),
-            stackView3.widthAnchor.constraint(equalToConstant: 200),
         ])
         
     }
