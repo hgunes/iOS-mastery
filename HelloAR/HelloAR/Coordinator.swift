@@ -19,7 +19,7 @@ class Coordinator: NSObject, ARSessionDelegate {
         let tapLocation = sender.location(in: view)
         
         if let entity = view.entity(at: tapLocation) as? ModelEntity {
-            let material = SimpleMaterial(color: .green, isMetallic: false)
+            let material = SimpleMaterial(color: .random(), isMetallic: false)
             entity.model?.materials = [material]
         }
     }

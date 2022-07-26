@@ -12,6 +12,7 @@
 		BEE96B3E288C7F25009E62F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE96B3D288C7F25009E62F9 /* Assets.xcassets */; };
 		BEE96B41288C7F25009E62F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE96B40288C7F25009E62F9 /* Preview Assets.xcassets */; };
 		BEE96B48288C8D40009E62F9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE96B47288C8D40009E62F9 /* Coordinator.swift */; };
+		BEE96B4A288C93AD009E62F9 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE96B49288C93AD009E62F9 /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BEE96B3D288C7F25009E62F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEE96B40288C7F25009E62F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BEE96B47288C8D40009E62F9 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BEE96B49288C93AD009E62F9 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				BEE96B3D288C7F25009E62F9 /* Assets.xcassets */,
 				BEE96B3F288C7F25009E62F9 /* Preview Content */,
 				BEE96B47288C8D40009E62F9 /* Coordinator.swift */,
+				BEE96B49288C93AD009E62F9 /* UIColor+Extensions.swift */,
 			);
 			path = HelloAR;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				BEE96B3A288C7F1E009E62F9 /* ContentView.swift in Sources */,
 				BEE96B38288C7F1E009E62F9 /* AppDelegate.swift in Sources */,
 				BEE96B48288C8D40009E62F9 /* Coordinator.swift in Sources */,
+				BEE96B4A288C93AD009E62F9 /* UIColor+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
