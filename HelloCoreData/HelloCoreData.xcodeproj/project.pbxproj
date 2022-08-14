@@ -11,6 +11,8 @@
 		BE56E37928A90D94003637A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE56E37828A90D94003637A6 /* ContentView.swift */; };
 		BE56E37B28A90D9D003637A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE56E37A28A90D9D003637A6 /* Assets.xcassets */; };
 		BE56E37E28A90D9D003637A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE56E37D28A90D9D003637A6 /* Preview Assets.xcassets */; };
+		BE56E38628A90E8B003637A6 /* HelloCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE56E38428A90E8B003637A6 /* HelloCoreDataModel.xcdatamodeld */; };
+		BE58D61328A91C310093733A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE58D61228A91C310093733A /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BE56E37828A90D94003637A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE56E37A28A90D9D003637A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE56E37D28A90D9D003637A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE56E38528A90E8B003637A6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		BE58D61228A91C310093733A /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		BE56E37528A90D94003637A6 /* HelloCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				BE58D61128A91BF40093733A /* Managers */,
 				BE56E37628A90D94003637A6 /* HelloCoreDataApp.swift */,
 				BE56E37828A90D94003637A6 /* ContentView.swift */,
+				BE56E38428A90E8B003637A6 /* HelloCoreDataModel.xcdatamodeld */,
 				BE56E37A28A90D9D003637A6 /* Assets.xcassets */,
 				BE56E37C28A90D9D003637A6 /* Preview Content */,
 			);
@@ -65,6 +71,14 @@
 				BE56E37D28A90D9D003637A6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE58D61128A91BF40093733A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BE58D61228A91C310093733A /* CoreDataManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			files = (
 				BE56E37928A90D94003637A6 /* ContentView.swift in Sources */,
 				BE56E37728A90D94003637A6 /* HelloCoreDataApp.swift in Sources */,
+				BE58D61328A91C310093733A /* CoreDataManager.swift in Sources */,
+				BE56E38628A90E8B003637A6 /* HelloCoreDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloCoreData/Preview Content\"";
+				DEVELOPMENT_TEAM = XW9T242VLK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloCoreData/Preview Content\"";
+				DEVELOPMENT_TEAM = XW9T242VLK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -337,6 +355,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE56E38428A90E8B003637A6 /* HelloCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE56E38528A90E8B003637A6 /* Model.xcdatamodel */,
+			);
+			currentVersion = BE56E38528A90E8B003637A6 /* Model.xcdatamodel */;
+			path = HelloCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BE56E36B28A90D94003637A6 /* Project object */;
 }
