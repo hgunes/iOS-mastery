@@ -9,23 +9,26 @@ import SwiftUI
 
 struct VideoListView: View {
     
+    var videoList = VideoList.topTen
+    
     var body: some View {
         NavigationView {
-            List(0..<20) { item in
+            List(videoList, id: \.id) { video in
                 HStack {
-                    Image("average-dev")
+                    Image(video.imageName)
                         .resizable()
                         .scaledToFit()
                         .frame(height: 70)
                         .cornerRadius(4)
+                        .padding(.vertical, 4)
                     
                     VStack(alignment: .leading, spacing: 5) {
-                        Text("I am an average developer")
+                        Text(video.title)
                             .fontWeight(.semibold)
                             .lineLimit(2)
                             .minimumScaleFactor(0.5)
                         
-                        Text("Jan 1, 2022")
+                        Text(video.uploadDate)
                             .font(.subheadline)
                             .foregroundColor(.secondary)
                     }

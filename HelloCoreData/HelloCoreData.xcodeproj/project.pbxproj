@@ -7,26 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BEE96B38288C7F1E009E62F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE96B37288C7F1E009E62F9 /* AppDelegate.swift */; };
-		BEE96B3A288C7F1E009E62F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE96B39288C7F1E009E62F9 /* ContentView.swift */; };
-		BEE96B3E288C7F25009E62F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE96B3D288C7F25009E62F9 /* Assets.xcassets */; };
-		BEE96B41288C7F25009E62F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE96B40288C7F25009E62F9 /* Preview Assets.xcassets */; };
-		BEE96B48288C8D40009E62F9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE96B47288C8D40009E62F9 /* Coordinator.swift */; };
-		BEE96B4A288C93AD009E62F9 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE96B49288C93AD009E62F9 /* UIColor+Extensions.swift */; };
+		BE56E37728A90D94003637A6 /* HelloCoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE56E37628A90D94003637A6 /* HelloCoreDataApp.swift */; };
+		BE56E37928A90D94003637A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE56E37828A90D94003637A6 /* ContentView.swift */; };
+		BE56E37B28A90D9D003637A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE56E37A28A90D9D003637A6 /* Assets.xcassets */; };
+		BE56E37E28A90D9D003637A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE56E37D28A90D9D003637A6 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BEE96B34288C7F1E009E62F9 /* HelloAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEE96B37288C7F1E009E62F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEE96B39288C7F1E009E62F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BEE96B3D288C7F25009E62F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BEE96B40288C7F25009E62F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BEE96B47288C8D40009E62F9 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		BEE96B49288C93AD009E62F9 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		BE56E37328A90D94003637A6 /* HelloCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE56E37628A90D94003637A6 /* HelloCoreDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCoreDataApp.swift; sourceTree = "<group>"; };
+		BE56E37828A90D94003637A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE56E37A28A90D9D003637A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE56E37D28A90D9D003637A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BEE96B31288C7F1E009E62F9 /* Frameworks */ = {
+		BE56E37028A90D94003637A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,39 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BEE96B2B288C7F1E009E62F9 = {
+		BE56E36A28A90D94003637A6 = {
 			isa = PBXGroup;
 			children = (
-				BEE96B36288C7F1E009E62F9 /* HelloAR */,
-				BEE96B35288C7F1E009E62F9 /* Products */,
+				BE56E37528A90D94003637A6 /* HelloCoreData */,
+				BE56E37428A90D94003637A6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BEE96B35288C7F1E009E62F9 /* Products */ = {
+		BE56E37428A90D94003637A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEE96B34288C7F1E009E62F9 /* HelloAR.app */,
+				BE56E37328A90D94003637A6 /* HelloCoreData.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEE96B36288C7F1E009E62F9 /* HelloAR */ = {
+		BE56E37528A90D94003637A6 /* HelloCoreData */ = {
 			isa = PBXGroup;
 			children = (
-				BEE96B37288C7F1E009E62F9 /* AppDelegate.swift */,
-				BEE96B39288C7F1E009E62F9 /* ContentView.swift */,
-				BEE96B3D288C7F25009E62F9 /* Assets.xcassets */,
-				BEE96B3F288C7F25009E62F9 /* Preview Content */,
-				BEE96B47288C8D40009E62F9 /* Coordinator.swift */,
-				BEE96B49288C93AD009E62F9 /* UIColor+Extensions.swift */,
+				BE56E37628A90D94003637A6 /* HelloCoreDataApp.swift */,
+				BE56E37828A90D94003637A6 /* ContentView.swift */,
+				BE56E37A28A90D9D003637A6 /* Assets.xcassets */,
+				BE56E37C28A90D9D003637A6 /* Preview Content */,
 			);
-			path = HelloAR;
+			path = HelloCoreData;
 			sourceTree = "<group>";
 		};
-		BEE96B3F288C7F25009E62F9 /* Preview Content */ = {
+		BE56E37C28A90D9D003637A6 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				BEE96B40288C7F25009E62F9 /* Preview Assets.xcassets */,
+				BE56E37D28A90D9D003637A6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -76,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BEE96B33288C7F1E009E62F9 /* HelloAR */ = {
+		BE56E37228A90D94003637A6 /* HelloCoreData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEE96B44288C7F25009E62F9 /* Build configuration list for PBXNativeTarget "HelloAR" */;
+			buildConfigurationList = BE56E38128A90D9D003637A6 /* Build configuration list for PBXNativeTarget "HelloCoreData" */;
 			buildPhases = (
-				BEE96B30288C7F1E009E62F9 /* Sources */,
-				BEE96B31288C7F1E009E62F9 /* Frameworks */,
-				BEE96B32288C7F1E009E62F9 /* Resources */,
+				BE56E36F28A90D94003637A6 /* Sources */,
+				BE56E37028A90D94003637A6 /* Frameworks */,
+				BE56E37128A90D94003637A6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HelloAR;
-			productName = HelloAR;
-			productReference = BEE96B34288C7F1E009E62F9 /* HelloAR.app */;
+			name = HelloCoreData;
+			productName = HelloCoreData;
+			productReference = BE56E37328A90D94003637A6 /* HelloCoreData.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BEE96B2C288C7F1E009E62F9 /* Project object */ = {
+		BE56E36B28A90D94003637A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					BEE96B33288C7F1E009E62F9 = {
+					BE56E37228A90D94003637A6 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = BEE96B2F288C7F1E009E62F9 /* Build configuration list for PBXProject "HelloAR" */;
+			buildConfigurationList = BE56E36E28A90D94003637A6 /* Build configuration list for PBXProject "HelloCoreData" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,44 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = BEE96B2B288C7F1E009E62F9;
-			productRefGroup = BEE96B35288C7F1E009E62F9 /* Products */;
+			mainGroup = BE56E36A28A90D94003637A6;
+			productRefGroup = BE56E37428A90D94003637A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEE96B33288C7F1E009E62F9 /* HelloAR */,
+				BE56E37228A90D94003637A6 /* HelloCoreData */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BEE96B32288C7F1E009E62F9 /* Resources */ = {
+		BE56E37128A90D94003637A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE96B41288C7F25009E62F9 /* Preview Assets.xcassets in Resources */,
-				BEE96B3E288C7F25009E62F9 /* Assets.xcassets in Resources */,
+				BE56E37E28A90D9D003637A6 /* Preview Assets.xcassets in Resources */,
+				BE56E37B28A90D9D003637A6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BEE96B30288C7F1E009E62F9 /* Sources */ = {
+		BE56E36F28A90D94003637A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE96B3A288C7F1E009E62F9 /* ContentView.swift in Sources */,
-				BEE96B38288C7F1E009E62F9 /* AppDelegate.swift in Sources */,
-				BEE96B48288C8D40009E62F9 /* Coordinator.swift in Sources */,
-				BEE96B4A288C93AD009E62F9 /* UIColor+Extensions.swift in Sources */,
+				BE56E37928A90D94003637A6 /* ContentView.swift in Sources */,
+				BE56E37728A90D94003637A6 /* HelloCoreDataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BEE96B42288C7F25009E62F9 /* Debug */ = {
+		BE56E37F28A90D9D003637A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		BEE96B43288C7F25009E62F9 /* Release */ = {
+		BE56E38028A90D9D003637A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,22 +259,19 @@
 			};
 			name = Release;
 		};
-		BEE96B45288C7F25009E62F9 /* Debug */ = {
+		BE56E38228A90D9D003637A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HelloAR/Preview Content\"";
-				DEVELOPMENT_TEAM = XW9T242VLK;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloCoreData/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -290,7 +279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hgunes.HelloAR;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harungunes.HelloCoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -298,22 +287,19 @@
 			};
 			name = Debug;
 		};
-		BEE96B46288C7F25009E62F9 /* Release */ = {
+		BE56E38328A90D9D003637A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HelloAR/Preview Content\"";
-				DEVELOPMENT_TEAM = XW9T242VLK;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloCoreData/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hgunes.HelloAR;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harungunes.HelloCoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -332,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEE96B2F288C7F1E009E62F9 /* Build configuration list for PBXProject "HelloAR" */ = {
+		BE56E36E28A90D94003637A6 /* Build configuration list for PBXProject "HelloCoreData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEE96B42288C7F25009E62F9 /* Debug */,
-				BEE96B43288C7F25009E62F9 /* Release */,
+				BE56E37F28A90D9D003637A6 /* Debug */,
+				BE56E38028A90D9D003637A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEE96B44288C7F25009E62F9 /* Build configuration list for PBXNativeTarget "HelloAR" */ = {
+		BE56E38128A90D9D003637A6 /* Build configuration list for PBXNativeTarget "HelloCoreData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEE96B45288C7F25009E62F9 /* Debug */,
-				BEE96B46288C7F25009E62F9 /* Release */,
+				BE56E38228A90D9D003637A6 /* Debug */,
+				BE56E38328A90D9D003637A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BEE96B2C288C7F1E009E62F9 /* Project object */;
+	rootObject = BE56E36B28A90D94003637A6 /* Project object */;
 }

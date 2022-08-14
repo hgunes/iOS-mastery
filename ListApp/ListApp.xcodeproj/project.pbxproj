@@ -12,6 +12,7 @@
 		BE4D17F2289EBDF60089EE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4D17F1289EBDF60089EE6D /* Assets.xcassets */; };
 		BE4D17F5289EBDF60089EE6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4D17F4289EBDF60089EE6D /* Preview Assets.xcassets */; };
 		BE4D17FC289EBF240089EE6D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4D17FB289EBF240089EE6D /* Video.swift */; };
+		BE4D17FE289EC8A80089EE6D /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4D17FD289EC8A80089EE6D /* VideoDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BE4D17F1289EBDF60089EE6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE4D17F4289EBDF60089EE6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE4D17FB289EBF240089EE6D /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		BE4D17FD289EC8A80089EE6D /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				BE4D17ED289EBDF00089EE6D /* ListAppApp.swift */,
 				BE4D17EF289EBDF00089EE6D /* VideoListView.swift */,
+				BE4D17FD289EC8A80089EE6D /* VideoDetailView.swift */,
 				BE4D17FB289EBF240089EE6D /* Video.swift */,
 				BE4D17F1289EBDF60089EE6D /* Assets.xcassets */,
 				BE4D17F3289EBDF60089EE6D /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE4D17F0289EBDF00089EE6D /* VideoListView.swift in Sources */,
+				BE4D17FE289EC8A80089EE6D /* VideoDetailView.swift in Sources */,
 				BE4D17FC289EBF240089EE6D /* Video.swift in Sources */,
 				BE4D17EE289EBDF00089EE6D /* ListAppApp.swift in Sources */,
 			);
