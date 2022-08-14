@@ -20,4 +20,20 @@ class CoreDataManager {
             }
         }
     }
+    // MARK: - CRUD Operations
+    
+    /// Create
+    func saveMovie(title: String) throws {
+        
+        let movie = Movie(context: persistentContainer.viewContext)
+        
+        movie.title = title
+        
+        do {
+            try persistentContainer.viewContext.save()
+        } catch {
+            print("Failed to save the movie. \(error)")
+        }
+    }
+
 }
