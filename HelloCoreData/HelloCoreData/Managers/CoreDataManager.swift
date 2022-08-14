@@ -49,7 +49,15 @@ class CoreDataManager {
     }
     
     /// Update
- 
+    func updateMovies() {
+        
+        do {
+            try persistentContainer.viewContext.save()
+        } catch {
+            persistentContainer.viewContext.rollback()
+            print("Failed to save the context \(error.localizedDescription)")
+        }
+    }
     
     ///Delete
     func deleteMovie(movie: Movie) {

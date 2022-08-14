@@ -11,40 +11,46 @@ struct ContentView: View {
     
     let coreDM: CoreDataManager
     @State private var movieTitle = ""
-    
     @State private var movies: [Movie] = [Movie]()
+    @State private var needsRefresh = false
     
     var body: some View {
-        VStack {
-            TextField("Enter a movie name", text: $movieTitle)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-            
-            Button {
-                coreDM.saveMovie(title: movieTitle)
-                populateMovies()
+        NavigationView {
+            VStack {
+                TextField("Enter a movie name", text: $movieTitle)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
                 
-            } label: {
-                Text("Save")
-            }
-            
-            List {
-                ForEach(movies, id: \.self) { movie in
-                    Text(movie.title ?? "")
+                Button {
+                    coreDM.saveMovie(title: movieTitle)
+                    populateMovies()
+                    
+                } label: {
+                    Text("Save")
                 }
-                .onDelete { indexSet in
-                    indexSet.forEach { index in
-                        let movie = movies[index]
-                        coreDM.deleteMovie(movie: movie)
-                        populateMovies()
+                
+                List {
+                    ForEach(movies, id: \.self) { movie in
+                        NavigationLink(destination: MovieDetailView(needsRefresh: $needsRefresh, movie: movie, coreDM: coreDM), label: {
+                            Text(movie.title ?? "")
+                        })
+                    }
+                    .onDelete { indexSet in
+                        indexSet.forEach { index in
+                            let movie = movies[index]
+                            coreDM.deleteMovie(movie: movie)
+                            populateMovies()
+                        }
                     }
                 }
+                .listStyle(PlainListStyle())
+                .accentColor(needsRefresh ? .white : .black)
+                
+                Spacer()
             }
-            
-            Spacer()
+            .padding()
+            .onAppear() {
+                populateMovies()
         }
-        .padding()
-        .onAppear() {
-            populateMovies()
         }
     }
     
