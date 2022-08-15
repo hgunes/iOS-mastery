@@ -20,6 +20,14 @@ struct ARViewContainer: UIViewRepresentable {
         
         let arView = ARView(frame: .zero)
         
+        let anchor = AnchorEntity(plane: .horizontal)
+        let material = SimpleMaterial(color: .blue, isMetallic: true)
+        let box = ModelEntity(mesh: MeshResource.generateBox(size: 0.3), materials: [material])
+        
+        anchor.addChild(box)
+        
+        arView.scene.addAnchor(anchor)
+        
         return arView
         
     }
