@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE5E61D828AC1BD500791135 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5E61D728AC1BD500791135 /* ItemDetailView.swift */; };
 		BE818E0D28AC074E004EF40D /* CoreData_CRUDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE818E0C28AC074E004EF40D /* CoreData_CRUDApp.swift */; };
 		BE818E0F28AC074E004EF40D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE818E0E28AC074E004EF40D /* ContentView.swift */; };
 		BE818E1128AC0756004EF40D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE818E1028AC0756004EF40D /* Assets.xcassets */; };
 		BE818E1428AC0756004EF40D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE818E1328AC0756004EF40D /* Preview Assets.xcassets */; };
 		BE818E1C28AC07BC004EF40D /* Stash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE818E1A28AC07BC004EF40D /* Stash.xcdatamodeld */; };
+		BE818E1E28AC0880004EF40D /* PersistentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE818E1D28AC0880004EF40D /* PersistentManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE5E61D728AC1BD500791135 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 		BE818E0928AC074E004EF40D /* CoreData-CRUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData-CRUD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE818E0C28AC074E004EF40D /* CoreData_CRUDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData_CRUDApp.swift; sourceTree = "<group>"; };
 		BE818E0E28AC074E004EF40D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE818E1028AC0756004EF40D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE818E1328AC0756004EF40D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE818E1B28AC07BC004EF40D /* Stash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stash.xcdatamodel; sourceTree = "<group>"; };
+		BE818E1D28AC0880004EF40D /* PersistentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				BE818E0C28AC074E004EF40D /* CoreData_CRUDApp.swift */,
 				BE818E0E28AC074E004EF40D /* ContentView.swift */,
+				BE5E61D728AC1BD500791135 /* ItemDetailView.swift */,
+				BE818E1D28AC0880004EF40D /* PersistentManager.swift */,
 				BE818E1A28AC07BC004EF40D /* Stash.xcdatamodeld */,
 				BE818E1028AC0756004EF40D /* Assets.xcassets */,
 				BE818E1228AC0756004EF40D /* Preview Content */,
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE5E61D828AC1BD500791135 /* ItemDetailView.swift in Sources */,
 				BE818E1C28AC07BC004EF40D /* Stash.xcdatamodeld in Sources */,
 				BE818E0F28AC074E004EF40D /* ContentView.swift in Sources */,
+				BE818E1E28AC0880004EF40D /* PersistentManager.swift in Sources */,
 				BE818E0D28AC074E004EF40D /* CoreData_CRUDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
