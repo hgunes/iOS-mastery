@@ -10,7 +10,7 @@ import SwiftUI
 struct ItemDetailView: View {
     
     let todo: Todo
-    @State var todoName = ""
+    @State private var todoName = ""
     let coreDM: PersistentManager
     @Binding var needsRefresh: Bool
     
