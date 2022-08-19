@@ -13,6 +13,8 @@
 		BE818DF628A99898004EF40D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE818DF528A99898004EF40D /* Preview Assets.xcassets */; };
 		BE818DFD28AA80E9004EF40D /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE818DFC28AA80E9004EF40D /* Coordinator.swift */; };
 		BE818DFF28AA8591004EF40D /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE818DFE28AA8591004EF40D /* UIColor+Extensions.swift */; };
+		BEF3F3B828AEE17200BDFE4F /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BEF3F3B728AEE17200BDFE4F /* fender_stratocaster.usdz */; };
+		BEF3F3BA28AEEEF200BDFE4F /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BEF3F3B928AEEEF200BDFE4F /* toy_car.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,9 @@
 		BE818DF528A99898004EF40D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE818DFC28AA80E9004EF40D /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		BE818DFE28AA8591004EF40D /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		BEF3F3B628AEDE5100BDFE4F /* hab_en.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = hab_en.reality; sourceTree = "<group>"; };
+		BEF3F3B728AEE17200BDFE4F /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
+		BEF3F3B928AEEEF200BDFE4F /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_car.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 				BE818DEC28A9988E004EF40D /* AppDelegate.swift */,
 				BE818DEE28A9988E004EF40D /* ContentView.swift */,
 				BE818DFC28AA80E9004EF40D /* Coordinator.swift */,
+				BEF3F3B928AEEEF200BDFE4F /* toy_car.usdz */,
+				BEF3F3B728AEE17200BDFE4F /* fender_stratocaster.usdz */,
+				BEF3F3B628AEDE5100BDFE4F /* hab_en.reality */,
 				BE818DFE28AA8591004EF40D /* UIColor+Extensions.swift */,
 				BE818DF228A99898004EF40D /* Assets.xcassets */,
 				BE818DF428A99898004EF40D /* Preview Content */,
@@ -132,7 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE818DF628A99898004EF40D /* Preview Assets.xcassets in Resources */,
+				BEF3F3BA28AEEEF200BDFE4F /* toy_car.usdz in Resources */,
 				BE818DF328A99898004EF40D /* Assets.xcassets in Resources */,
+				BEF3F3B828AEE17200BDFE4F /* fender_stratocaster.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
